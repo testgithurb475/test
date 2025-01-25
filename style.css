@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.2rem 12%;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 4rem;
+    font-weight: 500;
+    gap: 30px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease;
+}
+.logo{
+    font-size:  3rem;
+    color: blue;
+    font-weight: 800;
+    cursor: pointer;
+    /* margin-bottom: 20px; */
+    transition: 0.3 ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+button{
+    display: inline;
+    padding: 0.5rem 2.5rem;
+    background-color: blue;
+    box-shadow: 0 0 20px blue;
+    border-radius: 3rem;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 1.8rem;
+    border: 2px solid transparent ;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px blue;
+}
+
+.pic{
+    margin-top: 130px;
+}
+marquee{
+    color: #71277a;
+    background-color: cadetblue;
+    font-size: 2rem;
+    top: 0;
+    
+}
+
+.services{
+    margin-right: 100%;
+    display: flex;
+    padding: 0 20%;
+    gap: 80px;
+}
+.cards{
+    text-align: center;
+    margin: 0 30%;
+
+}
+
+.contact{
+    background-color:#71277a;
+
+}
+h2{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: black;
+    background-color: pink;
+    border-radius: 2rem;
+    border: 2px solid var(--main-colour);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.para{
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width 720px)
